@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from "react";
 import { sliderItems } from "./Data";
 import styled from "@emotion/styled";
+import { Link } from "react-router-dom";
 
 function Slider() {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -39,10 +40,12 @@ function Slider() {
               <h2 className="text-[14px] mt-12">
               {item.desc}
               </h2>
+              <Link to="/ProductList">
               <button className="mt-12 border-2 w-[150px] h-[50px] border-black hover:bg-white">
                 Shop Now
                 <ArrowRightOutlined />
               </button>
+              </Link>
             </div>
           </div>
         ))}

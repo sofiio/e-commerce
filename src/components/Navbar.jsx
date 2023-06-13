@@ -1,5 +1,6 @@
 import { Search, ShoppingCartOutlined } from '@mui/icons-material'
 import React from 'react'
+import { Link } from "react-router-dom";
 
 
 function Navbar() {
@@ -13,10 +14,11 @@ function Navbar() {
             </div>
         </div>
         <div><h2 className=' text-[30px] font-bold flex flex-1'>CHANELLE</h2></div>
+        
         <div className='mx-4 flex flex-1 justify-end space-x-8'>
-          <h2>REGISTER</h2>
-          <h2>SIGN IN</h2>
-          <ShoppingCartOutlined/>
+        <Link to="/Register"> <h2>REGISTER</h2></Link>
+        <Link to="/Login"><h2>SIGN IN</h2></Link>
+        <Link to="/Cart"> <ShoppingCartOutlined/></Link>
         </div>
     </div>
   )
