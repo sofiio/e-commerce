@@ -5,7 +5,7 @@ import CategoryItem from './CategoryItem'
 function Categories() {
   return (
     <>
-    <div className='grid grid-cols-3'>
+    <div className='grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2'>
         {/* თითეოული აითემისთვის მასივიდან, გამოიტანე categoryitem */}
         {categories.map(item=>(<CategoryItem item={item} key={item.id}/>))}
     </div>

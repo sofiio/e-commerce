@@ -3,7 +3,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="flex pb-6 mt-6 bg-pink-50">
+    <div className="flex flex-col md:flex-row pb-6 mt-6 bg-pink-50">
         {/* flex1 - ტოლ ნაწილებად დაყობს გვერდით მდებარე დივებს */}
       <div className=" flex-1 mx-4">
         <h2 className="font-bold text-lg mt-6">CHANELL.</h2>
@@ -14,7 +14,7 @@ function Footer() {
         </h2>
       </div>
 
-      <div className=" flex-1 ml-[80px]">
+      <div className=" flex-1 md:ml-[80px] ml-4">
       <h2 className="font-bold mt-6">Useful Links</h2>
       <div className="flex">
         <div className="text-[18px] mt-6">
@@ -24,7 +24,7 @@ function Footer() {
             <h2>Order Tracking</h2>
             <h2>Wishlist</h2>
         </div>
-        <div className="text-[18px] mt-6 ml-28">
+        <div className="text-[18px] mt-6 lg:ml-28 ml-4">
         <h2>Home</h2>
             <h2>Cart</h2>
             <h2>Woman Fashion</h2>
@@ -33,7 +33,7 @@ function Footer() {
         </div>
       </div>
       </div>
-      <div className=" flex-1">
+      <div className=" flex-1  ml-4 md:ml-0">
         <h2 className="text-[20px] font-bold mt-4">Contact</h2>
         <div className="flex items-center space-x-4">
         <Room className="mt-4"/>

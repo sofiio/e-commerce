@@ -31,17 +31,17 @@ function Slider() {
 
       <Wrapper slideIndex = {slideIndex}>
         {sliderItems.map((item) => (
-          <div key={item.id} className={`${item.bgColor} flex w-[100vw] justify-around`}>
+          <div key={item.id} className={`${item.bgColor} lg:flex w-[100vw] justify-around`}>
             <div className="w-[500px]">
-              <img src={item.img} className=" object-cover mx-12" />
+              <img src={item.img} className=" hidden lg:block object-cover mx-12" />
             </div>
-            <div className="mt-[200px]">
-              <h2 className="font-bold text-[60px]">{item.title}</h2>
-              <h2 className="text-[14px] mt-12">
+            <div className="lg:mt-[200px] pt-[50px]">
+              <h2 className="font-bold md:text-[60px] text-[40px] mx-4 lg:mx-0">{item.title}</h2>
+              <h2 className="text-[14px] lg:mt-12 mt-24 mx-4 lg:mx-0">
               {item.desc}
               </h2>
               <Link to="/ProductList">
-              <button className="mt-12 border-2 w-[150px] h-[50px] border-black hover:bg-white">
+              <button className="mb-4 lg:mb-0 mx-4 lg:mx-0 mt-12 border-2 w-[150px] h-[50px] border-black hover:bg-white">
                 Shop Now
                 <ArrowRightOutlined />
               </button>

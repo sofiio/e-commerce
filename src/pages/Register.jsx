@@ -11,30 +11,30 @@ function Register() {
       <div className="w-[100vw] h-[100vh]  flex items-center justify-center">
         <div className="w-[50%] bg-grey px-4">
           <div className="text-[24px] font-bold mt-2 ">CREATE AN ACCOUNT</div>
-          <form className="">
+          <form className="space-y-2 ">
             <input
               placeholder="name"
               className="border border-3 border-black p-1"
             ></input>
             <input
               placeholder="last name"
-              className="ml-2 border border-3 border-black p-1"
+              className=" border border-3 border-black p-1"
             ></input>
             <input
               placeholder="username"
-              className="ml-2 border border-3 border-black p-1"
+              className=" border border-3 border-black p-1"
             ></input>
             <input
               placeholder="email"
-              className="mt-2 border border-3 border-black p-1"
+              className=" border border-3 border-black p-1"
             ></input>
             <input
               placeholder="password"
-              className="ml-2 border border-3 border-black p-1"
+              className=" border border-3 border-black p-1"
             ></input>
             <input
               placeholder="confirm password"
-              className="ml-2 border border-3 border-black p-1"
+              className="border border-3 border-black p-1"
             ></input>
             <div className="text-[16px] mt-2">
               {" "}

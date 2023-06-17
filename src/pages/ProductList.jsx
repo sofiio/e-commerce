@@ -11,7 +11,7 @@ function ProductList() {
       <Navbar />
       <Announcement />
       <div className="mx-4 text-lg font-bold">Dresses</div>
-      <div className="flex justify-between mx-4 font-bold">
+      <div className="lg:flex justify-between mx-4 font-bold">
         <div className="">Filter Products:
         <select>
             <option disabled selected>Color</option>

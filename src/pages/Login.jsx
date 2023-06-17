@@ -14,16 +14,16 @@ function Login() {
    
       <div className="w-[50%] bg-grey px-4">
         <div className="text-[24px] font-bold mt-2 ">SIGN IN</div>
-        <form>
+        <form className="space-y-2">
           <input
             placeholder="username"
             className="border border-3 border-black p-1"
           ></input>
           <input
             placeholder="password"
-            className="ml-2 border border-3 border-black p-1"
+            className="border border-3 border-black p-1"
           ></input>
-          <button className=" bg-green-200 w-[100px] hover:bg-white border border-black h-[32px] ml-2">
+          <button className=" bg-green-200 w-[100px] hover:bg-white border border-black h-[32px]">
             LOGIN
           </button>
           <h2 className="text-[16px] mt-2 underline text-blue-900 cursor-pointer">
