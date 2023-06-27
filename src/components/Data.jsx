@@ -27,39 +27,39 @@ export const sliderItems = [
 
 
 
-export const categories = [
-    {
-        id: 1,
-        img:'pic1.png',
-        title: "SHIRT STYLE"
-    },
-    {
-        id: 2,
-        img:'pic2.png',
-        title: "LOUNGEWEAR LOVE"
-    },
-    {
-        id: 3,
-        img:'pic3.png',
-        title: "LIGHT JACKETS"
-    },
-    {
-        id: 4,
-        img:'pic4.png',
-        title: "NEW DRESSES"
-    },
-    {
-        id: 5,
-        img:'pic5.png',
-        title: "THE PERFECT JEANS"
-    },
-    {
-        id: 5,
-        img:'pic6.png',
-        title: "JEANS & CO"
-    },
+// export const categories = [
+//     {
+//         id: 1,
+//         img:'pic1.png',
+//         title: "SHIRT STYLE"
+//     },
+//     {
+//         id: 2,
+//         img:'pic2.png',
+//         title: "LOUNGEWEAR LOVE"
+//     },
+//     {
+//         id: 3,
+//         img:'pic3.png',
+//         title: "LIGHT JACKETS"
+//     },
+//     {
+//         id: 4,
+//         img:'pic4.png',
+//         title: "NEW DRESSES"
+//     },
+//     {
+//         id: 5,
+//         img:'pic5.png',
+//         title: "THE PERFECT JEANS"
+//     },
+//     {
+//         id: 5,
+//         img:'pic6.png',
+//         title: "JEANS & CO"
+//     },
 
-]
+// ]
 
 
 export const popularProducts = [
