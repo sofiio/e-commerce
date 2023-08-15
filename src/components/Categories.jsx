@@ -1,7 +1,7 @@
 import React from "react";
 import axios from 'axios';
 import { useState, useEffect, useContext } from "react";
-
+import { Link } from "react-router-dom";
 
 const Categories = () => {
  
@@ -55,9 +55,11 @@ const Categories = () => {
                     <h2 className="lg:text-[50px] text-[30px] md:text-[40px] text-white">
                       {attributes.name}
                     </h2>
+                    <Link to="/ProductList">
                     <button className="border-2 w-[200px] border-gray-300 text-white hover:bg-white hover:text-black transform transition-transform hover:-translate-y-1 hover:scale-105">
                       SHOP NOW
                     </button>
+                    </Link>
                   </div> 
                 </div>
               </>

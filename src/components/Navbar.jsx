@@ -13,7 +13,7 @@ function Navbar() {
             <Search/>
             </div>
         </div>
-        <div className='hidden sm:block'><h2 className=' text-[30px] font-bold flex flex-1'>CHANELLE</h2></div>
+        <Link to="/"> <div className='hidden sm:block'><h2 className=' text-[30px] font-bold flex flex-1'>CHANELLE</h2></div></Link>
         
         <div className='mx-4 flex flex-1 items-center md:items-start justify-end space-x-8'>
         <Link to="/Register"> <h2 className='text-[10px] md:text-[18px]'>REGISTER</h2></Link>
